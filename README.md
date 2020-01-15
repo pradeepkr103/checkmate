@@ -5,12 +5,12 @@ This document contains instructions for reproducing plots in the MLSys 2020 pape
 ## Background
 `remat` is a package to compute memory-efficient schedules for evaluating neural network dataflow graphs created by the backpropagation algorithm. To save memory, the package deletes and rematerializes intermediate values via recomputation. The schedule with minimum recomputation for a given memory budget is chosen by solving an integer linear program. For details about our approach, please see the following paper,
 ```
-@inproceedings{jain2019checkmate,
+@inproceedings{jain2020checkmate,
   title={Checkmate: Breaking the Memory Wall with Optimal Tensor Rematerialization},
   author={Jain, Paras and Jain, Ajay and Nrusimha, Aniruddha and Gholami, Amir and Abbeel, Pieter and Keutzer, Kurt and Stoica, Ion and Gonzalez, Joseph E},
   booktitle = {Proceedings of the 3rd Conference on Machine Learning and Systems},
   series = {MLSys 2020},
-  year={2019}
+  year={2020}
 }
 ```
 
